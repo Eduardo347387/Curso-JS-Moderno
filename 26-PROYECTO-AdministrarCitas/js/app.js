@@ -215,6 +215,7 @@ function nuevaCita(e) {
 
             // Reinicia el objeto para evitar futuros problemas de validación
             reiniciarObjeto();
+            
 
             // Reiniciar Formulario
             formulario.reset();
