@@ -28,6 +28,14 @@ export function checkBalance(balance){
     }
 } 
 
+// export defaul
+// this can only exits as one there cannot be two defaul export
+
+export default function newFuncion(){
+    console.log('this is in function with default export')
+}
+
+
 // EXPORTING A CLASS
 export class Client{
     constructor(nameClient,balance){

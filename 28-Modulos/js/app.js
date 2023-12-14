@@ -1,7 +1,8 @@
-import { Client, checkBalance, getInfo, nameClient,balance } from "./cliente.js";
+import newFuncion, { Client, checkBalance, getInfo, nameClient,balance } from "./cliente.js";
 
 import { Company } from "./empresa.js";
 
+newFuncion()
 console.log(nameClient)
 console.log(balance)
 
