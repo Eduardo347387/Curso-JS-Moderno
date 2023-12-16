@@ -1,10 +1,11 @@
 import UI from "./classes/UI.js";
 import Citas from "./classes/citas.js";
-import { ls,CITAS_KEY,Editar } from "./app.js";
+import { ls,CITAS_KEY } from "../js/classes/app.js";
 import { formulario,mascotaInput,propietarioInput,telefonoInput,fechaInput,horaInput,sintomasInput} from "./selectores.js";
 
 export const ui = new UI();
 export const administrarCitas = new Citas();
+let Editar 
 
 const citaObj = {
     mascota: '',

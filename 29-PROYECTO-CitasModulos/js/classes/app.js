@@ -3,7 +3,9 @@ import { sintomasInput,mascotaInput,propietarioInput,telefonoInput,fechaInput,ho
 
 export const ls = window.localStorage;
 export const CITAS_KEY =  'citas'
-export let Editar  
+ 
+
+export const nombre = 'Lalo'
 
 
 class App{
