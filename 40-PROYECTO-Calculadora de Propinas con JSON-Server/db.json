@@ -71,6 +71,12 @@
       "nombre": "Café Capuchino",
       "precio": 40,
       "categoria": 2
+    },
+    {
+      "id": 13,
+      "nombre": "El pozolito",
+      "precio": 20,
+      "categoria": 2
     }
   ]
 }
